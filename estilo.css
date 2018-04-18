@@ -1,0 +1,395 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing:antialised !important;
+}
+
+
+h2 {
+    font-size: 38px;
+    color: #4c4c51;
+    font-weight: 400;
+}
+
+
+h3 {
+    opacity: 0.85;
+    color: #fb5c68;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+p,a {
+    font-size: 22px;
+    color: #88939e;
+    opacity: 0.85;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+
+header {
+    margin-bottom: -100px;
+        
+}
+
+header .level {
+    padding-top: 40px;
+}
+
+header h1 {
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 41px;
+    
+}
+
+
+header h1 span {
+    visibility: hidden
+}
+
+
+header nav ul {
+    line-height: 50px;
+    opacity: 0.90;
+     
+}
+
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+        
+}
+
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+
+header nav li:last-child{
+   margin: 0;
+    background-image: url(oval.png);
+    background-repeat: no-repeat;
+    width: 60px;
+        
+}
+
+
+header nav li span:last-child{
+visibility: hidden
+}
+
+
+section#topo {
+    background-image: url(fundo.png);
+    height: 1056px;
+    background-size: cover;
+    
+ }
+
+section#topo {
+    background-image: url(fundo.png);
+    height: 1056px;
+    background-size: cover;
+ 
+}
+
+
+section#topo .titulo {
+    padding-top: 210px;
+    color: #fff;
+    font-weight: 400px;
+      
+}
+
+section#topo .titulo h1 {
+    font-size: 48px;
+    
+    
+}
+
+section#topo .titulo p {
+    color: #fff;
+    margin: 20px 80px 40px 80px;
+          
+}
+
+
+section#topo .titulo a {
+    background-color: #fd676e;
+    color: rgba(255, 255, 255, 0.85);
+    width: 267px;
+    align-content: center;
+    height: 55px;
+    font-size: 22px;
+    border:0;
+    
+}
+
+section#conheca {
+    margin-top: -85px;
+}
+
+
+
+
+
+section#conheca h2 {
+    margin-bottom: 20px;
+}
+
+section#dados .level{
+    margin: 140px 20px 130px 20px;
+        
+}
+
+section#dados .level h1 {
+    font-family: 'Merriweather', serif; 
+    line-height: 1.2;
+    opacity: 0.85;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f94d59;
+   
+}
+
+
+section#dados .level span {
+    color: #88939e;
+    font-size: 22px;
+    opacity: 0.85;
+    
+}
+
+section#message a {
+    text-decoration: none;
+}
+
+
+section#message .vantagens img {
+   margin-top: 10px;
+}
+
+
+section#trips  {
+    margin-top: 120px;
+    
+}
+
+
+section#trips .chamada h2 {
+    margin-bottom: 30px;
+    
+}
+
+
+section#trips .chamada p {
+    opacity: 0.80;
+    color: #88939e;
+    margin-bottom: 45px;
+}
+
+section#trips .botao form{
+    width: 100%;
+            
+}
+
+section#trips   .botao button {
+     background-color: transparent;
+     border: none;
+     width: 100%;
+     height: 60px;
+     padding: 0px;
+    background-color: #fd6e74;
+    border-radius:  0px 0px 30px 30px;
+    
+    
+    
+}
+
+section#trips  .botao select{
+    width: 100%;
+    height: 60px;
+    opacity: 0.85;
+    font-size: 22px;
+    border: 1px solid #88939e;
+    border-radius: 30px 30px 0px 0px;
+    color: #88939e;
+    
+    
+   
+}
+
+section#trips .botao  span {
+    height: 60px;    
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 22px;
+    opacity: 0.80;
+    
+}
+
+section#help {
+    margin-top: 140px;
+    
+    
+}
+section#help form select {
+    display: block;
+    width: 100%;
+    height: 62px;
+    opacity: 0.85;
+    border: 1px solid #75808c;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #75808c;
+    font-size: 22px;
+    font-weight: 400;
+    
+    
+}
+
+
+section#help nav ul {
+    margin-right: 160px;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.90;
+    color: #88939e;
+    display:inline-table;
+    
+}
+
+section#help nav ul:last-child {
+    margin-right: 0;
+}
+
+section#help nav h3{
+    color: #fb5c68;
+    font-weight: 700;
+    opacity: 0.80;
+    margin-bottom: 5px; 
+    }
+
+
+
+footer .level{
+    border-top: 2px solid #e8e8e8;
+    border-radius: 2px;
+    color: #88939e;
+    padding: 35px 0px 35px 0px;
+    margin-top: 60px;
+    
+}
+
+footer h1 {
+    background-image: url(logofooter.png);
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 36px;
+}
+
+footer h1 span {
+    visibility: hidden;
+}
+
+
+
+footer nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+        
+}
+
+footer nav li a {
+    color: #88939e;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+footer nav li:last-child{
+   margin: 0;
+       
+}
+
+
+
+
+@media (max-width: 1023px) {
+   
+    section#topo .titulo{
+        padding-top: 150px;
+    }
+    
+    section#topo .titulo p {
+       margin: 20px;
+    }
+    
+    section#conheca {
+        margin-top: -230px;
+        
+        
+    }
+    
+    section#conheca .texto {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    
+    
+    section#dados .level {
+       margin: 20px ; 
+    }
+    
+       
+    section#trips {
+        margin:20px;
+    }
+    
+    section#help{
+        margin:20px;
+        margin-bottom: 0px;
+    }
+    
+    footer .level{
+        margin: 0px 20px;
+                       
+    }
+   
+}
+
+
+@media (max-width: 600px) {
+    
+    section#topo .titulo {
+        padding-top: 100px;
+    }
+    
+    section#topo .titulo p {
+        opacity: 1;
+        margin-top: 10px;
+    } {
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
